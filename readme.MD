@@ -46,16 +46,18 @@ This approach uses a loop and a `deque` to simulate physical movements.
 | Feature           | Recursive Solution       | Physical Model Solution      |
 |:------------------|:-------------------------|:-----------------------------|
 | **Primary Logic** | Mathematical Induction   | Physical Simulation          |
+| **Readability**   | Low (Abstract/Hidden)    | High (Step-by-Step/Clear)    |
 | **Execution Cost**| High (Stack overhead)    | Low (Minimal RAM)            |
-| **Scalability**   | Limited (Fails at N~1000)| Unlimited (Time is only limit)|
+| **Scalability**   | Limited (Fails at N~1000)| Unlimited (Stable for any N) |
 | **Debugging**     | Hard (Hidden in Stack)   | Easy (Visible in Lists)      |
-| **Industry Use**  | Quick logic tasks        | Heavy-duty simulations       |
+| **Industry Use**  | Quick logic/Math scripts | Game Engines/Heavy Simulators|
 
 ## The Teacher's Verdict
-If you are writing a quick script for a math class, use the **Recursive**
-version. If you are building a game engine or a system that needs to handle
-massive amounts of data without crashing, use the **Physical Model**.
+The **Recursive** version is like a math formula—it’s short, but you have to
+be an expert to read it. The **Physical Model** is like an instruction
+manual—it takes more pages to write, but anyone can pick it up and
+understand how it works.
 
-Good code isn't just about being clever; it's about being **reliable**. The
-physical model is a lesson in how to build a "tank" of a program that won't
-fall over when the data gets heavy.
+For a new programmer, "Clear is better than Clever." The physical model is
+the superior choice for building a program that others can actually
+understand and fix.
