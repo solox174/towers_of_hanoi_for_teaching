@@ -54,6 +54,7 @@ This approach is a direct instruction set for a specific scenario (N=3).
 | **Scalability**   | Limited (N~1000)  | Unlimited         | Targeted (N=3)    |
 | **Debugging**     | Hard (Hidden)     | Easy (Visible)    | Simplest          |
 | **Industry Use**  | Math Scripts      | Simulators        | Automation        |
+| **Readability**   | Low (Abstract)    | High (Clear)      | Highest (Direct)  |
 
 ## The Teacher's Verdict
 The **Recursive** version is like a math formula. The **Physical Model** is
