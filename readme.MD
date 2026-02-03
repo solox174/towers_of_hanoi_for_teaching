@@ -2,7 +2,7 @@ Kevin's comments:
 
 I made the physical model solution from scratch so you wont find it anywhere. It's a non-traditional solution I came up with 
 to demonstrate what I was trying to explain about the thought process behind solving problems and considerations like
-execution cost, readability, and maintainability. I used Gemini to  the generate the comparison of the two below, from 
+execution cost, readability, scalability, and maintainability. I used Gemini to  the generate the comparison of the two below, from 
 those perspectives, as a "teacher" and edited it as I thought appropriate.
 
 # Student Guide: Comparing Recursive, Physical, and Procedural Logic
